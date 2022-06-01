@@ -1,8 +1,8 @@
 # Zap City
 
-**Move with WASD or Arrow Keys.  Fire with Spacebar.**
+**Move with WASD or Arrow Keys.  Fire with Left Mouse Button.**
 
-Assignment was to create a topdown level in the style of the original Zelda.  Level features a health system and HUD to display it, basic combat & enemy patrol systems, and a key that must be obtained to unlock the end goal.  Created before I knew about Unity tilemaps, so each tile is a separate GameObject -- 0/10 method, do not recommend.
+Assignment was to create a single level to showcase a Unique Gameplay Mechanic.  The player's chain/ball lightning attack uses OverlapCircles to tag enemies within range and loop through with a coroutine to simulate the delay between lightning chains.  Unity Events allow the lightning rods to talk to various other elements when they are charged or discharged.  Took 4 tilemaps but much easier than individual game objects.
 
 *GAM 605, MA in Game Development at the [Academy of Art University](http://art.edu).  
 Pixel art by [Kenney.nl](http://Kenney.nl).  Sounds from [Pixabay.com](http://Pixabay.com).  Music from [fesliyanstudios.com](http://fesliyanstudios.com).*
